@@ -47,11 +47,11 @@ public class FacebookLoginFunctionality {
 	    
 	    if(expectedUrl.equals(driver.getCurrentUrl()))
 	    {
-	        System.out.println("Test Fail");
+	        System.out.println("Fail");
 	    }
 	    else
 	    {
-	        System.out.println("Test Pass");
+	        System.out.println("Pass");
 	    }
 	    driver.close();
 	}
